@@ -4,7 +4,7 @@ const currentBook = {
   pagesRead: 357,
   totalPages: 432,
   progress: 83,
-  cover: "images/currently-reading.jpg"
+  cover: "images/elcaballeroylapolilla.jpg"
 };
 
 const lastRead = {
@@ -12,24 +12,24 @@ const lastRead = {
   author: "Victoria Wilder",
   rating: "⭐⭐⭐☆☆",
   comment: "Una lectura adictiva y perfecta para desconectar.",
-  cover: "images/last-read.jpg"
+  cover: "images/bourbonandlies.jpg"
 };
 
 const favourites = [
   {
     title: "Han cantado bingo",
-    cover: "images/han-cantado-bingo.jpg"
+    cover: "images/hancantadobingo.jpg"
   },
   {
     title: "Misha Zhukov debe morir",
-    cover: "images/misha-zhukov.jpg"
+    cover: "images/mishazhukov.jpg"
   },
   {
     title: "El caballero y la polilla",
-    cover: "images/caballero-polilla.jpg"
+    cover: "images/elcaballeroylapolilla.jpg"
   },
   {
     title: "Reliquia",
-    cover: "images/reliquia.jpg"
+    cover: "images/reliquia.jpeg"
   }
 ];
