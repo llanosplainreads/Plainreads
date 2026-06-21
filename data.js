@@ -12,7 +12,7 @@ const lastRead = {
   author: "Rachel Gillig",
   rating: "⭐⭐⭐⭐☆",
   comment: "La gargola el mejor personaje. enganchada hasta el final.",
-  cover: "images/bourbonandlies.jpg"
+  cover: "images/elcaballeroylapolilla.jpg"
 };
 
 const favourites = [
