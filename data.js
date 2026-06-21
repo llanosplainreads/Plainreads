@@ -1,17 +1,17 @@
 const currentBook = {
-  title: "El caballero y la polilla",
-  author: "Rachel Gillig",
-  pagesRead: 357,
-  totalPages: 432,
-  progress: 83,
+  title: "Carcoma",
+  author: "Layla Martinez",
+  pagesRead: 40,
+  totalPages: 134,
+  progress: 30,
   cover: "images/elcaballeroylapolilla.jpg"
 };
 
 const lastRead = {
-  title: "Bourbon & Lies",
-  author: "Victoria Wilder",
-  rating: "⭐⭐⭐☆☆",
-  comment: "Una lectura adictiva y perfecta para desconectar.",
+  title: "El caballero y la polilla",
+  author: "Rachel Gillig",
+  rating: "⭐⭐⭐⭐☆",
+  comment: "La gargola el mejor personaje. enganchada hasta el final.",
   cover: "images/bourbonandlies.jpg"
 };
 
