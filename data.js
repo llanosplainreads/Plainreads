@@ -4,7 +4,7 @@ const currentBook = {
   pagesRead: 40,
   totalPages: 134,
   progress: 30,
-  cover: "images/elcaballeroylapolilla.jpg"
+  cover: "images/carcoma.jpg"
 };
 
 const lastRead = {
