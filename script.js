@@ -38,6 +38,20 @@ document.getElementById("last-author").textContent =
 
 document.getElementById("last-rating").textContent =
   lastRead.rating;
-
 document.getElementById("last-comment").textContent =
-  `"${lastRead.comment}"`;
+  lastRead.comment;
+
+const favouritesContainer =
+  document.getElementById("favourites-container");
+
+favourites.forEach(book => {
+
+  const img = document.createElement("img");
+
+  img.src = book.cover;
+  img.alt = book.title;
+  img.title = book.title;
+
+  favouritesContainer.appendChild(img);
+
+});
