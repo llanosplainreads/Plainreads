@@ -1,0 +1,178 @@
+:root {
+  --background: #FAF7F2;
+  --card: #FFFFFF;
+  --primary: #7A907A;
+  --primary-dark: #5F735F;
+  --primary-light: #B7C4B2;
+  --text: #3F312C;
+  --gold: #C9A86A;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.polaroid {
+  width: 220px;
+  background: white;
+  padding: 15px 15px 40px;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow:
+    0 8px 25px rgba(0,0,0,0.08);
+  transform: rotate(-2deg);
+}
+
+.polaroid img {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 4rem;
+  color: var(--primary-dark);
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.bio {
+  margin-bottom: 40px;
+}
+
+.bio p {
+  margin-bottom: 8px;
+}
+
+.bio a {
+  color: var(--primary-dark);
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.button {
+  text-decoration: none;
+  color: var(--primary-dark);
+  background: white;
+  padding: 18px;
+  border-radius: 16px;
+  border: 1px solid var(--primary-light);
+  box-shadow:
+    0 5px 15px rgba(0,0,0,0.05);
+  transition: .3s;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.card {
+  background: var(--card);
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.06);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Cormorant Garamond", serif;
+  color: var(--primary-dark);
+  letter-spacing: 2px;
+}
+
+.book-card {
+  display: flex;
+  gap: 25px;
+}
+
+.book-card img {
+  width: 120px;
+  border-radius: 12px;
+}
+
+.progress-bar {
+  height: 12px;
+  background: #E8E8E8;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+#progress-fill {
+  background: var(--primary);
+  height: 100%;
+  width: 0%;
+}
+
+.favourites {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.favourites img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow:
+    0 5px 15px rgba(0,0,0,0.08);
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  color: var(--primary-dark);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 650px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .book-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+}
