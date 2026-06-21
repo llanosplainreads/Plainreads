@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>plainreads ✦ A reader's journal</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Tipografía -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <!-- HEADER -->
+
+    <section class="hero fade-in">
+
+      <div class="polaroid">
+        <img src="images/profile.jpg" alt="Photo of Llanos">
+      </div>
+
+      <h1>✦ plainreads ✦</h1>
+
+      <div class="bio">
+
+        <p>🧑🏻‍🏫 Profe manchega | 📖 Bookstagram</p>
+        <p>💕 Romance + fantasía (mainly)</p>
+        <p>🧶 Reseñas honestas + crochet</p>
+        <p>📩
+          <a href="mailto:llanosplainreads@gmail.com">
+            llanosplainreads@gmail.com
+          </a>
+        </p>
+
+      </div>
+
+      <div class="links">
+
+        <a
+          href="https://instagram.com/plainreads"
+          target="_blank"
+          class="button"
+        >
+          📸 Instagram
+        </a>
+
+        <a
+          href="https://tiktok.com/@plainreads"
+          target="_blank"
+          class="button"
+        >
+          🎥 TikTok
+        </a>
+
+        <a
+          href="https://plainreads.substack.com/"
+          target="_blank"
+          class="button"
+        >
+          📰 Substack
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- CURRENTLY READING -->
+
+    <section class="card fade-in">
+
+      <h2>📖 CURRENTLY READING</h2>
+
+      <div class="book-card">
+
+        <img
+          id="current-cover"
+          src=""
+          alt=""
+        >
+
+        <div>
+
+          <h3 id="current-title"></h3>
+          <p id="current-author"></p>
+
+          <p id="current-pages"></p>
+
+          <div class="progress-bar">
+            <div id="progress-fill"></div>
+          </div>
+
+          <p id="current-progress"></p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- LAST READ -->
+
+    <section class="card fade-in">
+
+      <h2>📚 LAST READ</h2>
+
+      <div class="book-card">
+
+        <img
+          id="last-cover"
+          src=""
+          alt=""
+        >
+
+        <div>
+
+          <h3 id="last-title"></h3>
+          <p id="last-author"></p>
+
+          <p id="last-rating"></p>
+
+          <p id="last-comment"></p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- FAVOURITES -->
+
+    <section class="card fade-in">
+
+      <h2>⭐ FAVOURITES OF THE YEAR</h2>
+
+      <div class="favourites">
+
+        <img src="images/han-cantado-bingo.jpg" alt="">
+        <img src="images/misha-zhukov.jpg" alt="">
+        <img src="images/caballero-polilla.jpg" alt="">
+        <img src="images/reliquia.jpg" alt="">
+
+      </div>
+
+    </section>
+
+    <footer>
+
+      <p>
+        Hecho con libros, ganchillo y mucho café
+        ☕🧶📚
+      </p>
+
+    </footer>
+
+  </main>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
