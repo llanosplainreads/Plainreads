@@ -54,6 +54,14 @@ author: Claudia Amador,
 pages: 184,
 cover: "images/altasangre.jpg",
 genres: ["Fantasy"]
+},
+
+LasPruebasDeUnter: {
+title: "Las pruebas de unter",
+author: Mia Faraday,
+pages: 480,
+cover: "images/laspruebasdeunter.jpg",
+genres: ["Fantasy"]
 }
 
 };
